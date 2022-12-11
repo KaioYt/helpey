@@ -1,0 +1,122 @@
+:root{
+    --green: #008B8B;
+    --green2: #6bd16b;
+    --green3: #98FB98;
+    --blue: #1f6fb0;
+    --blu2: #4682B4;
+    --white: #ffffff;
+    --dark: #000000;
+}
+
+body{
+    background: var(--white);
+    font-family: poppinsBold;
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;;
+    margin: 0 auto;
+}
+
+#title{
+    font-size: 20px;    
+    font-family: 'poppinsBlack;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.navigation{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.navigation ul{
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li{
+    position: relative;
+    width: 87%;
+    list-style: none;
+}
+
+.navigation ul li:nth-child(1){
+    margin-bottom: 100px;
+    border: 5px solid var(--blu2);
+    background: var(--blu2);
+    border-radius: 15px;
+}
+
+.navigation ul li:nth-child(1):hover{
+    border-top-left-radius: 30px;
+    border: none;
+    transition: 0.2s;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navigation ul li:hover a{
+    font-size: 20px;
+    background: var(--white);
+    color: var(--blu2);
+    border-top-left-radius: 30px;
+    transition: 0.2s;
+}
+
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.navigation ul li a .icon ion-icon{
+    font-size: 25px;
+}
+
+.navigation ul li a .icon .title{
+    position: relative;
+    display: block;
+    height: 50px;
+    line-height: 60px;
+    padding: 0 10px;
+    text-align: start;
+    width: nowrap;
+}
+
+span{
+    line-height: 45px;
+}
+
+.navigation ul li:hover a::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: 35px 35px 0 10px var(--white);
+    pointer-events: none;
+}

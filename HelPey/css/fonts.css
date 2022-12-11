@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'poppinsBlack';
+    src: url('fonts/Poppins-Black.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsBlackItalic';
+    src: url('fonts/Poppins-BlackItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsBold';
+    src: url('fonts/Poppins-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsBoldItalic';
+    src: url('fonts/Poppins-BoldItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsExtraBold';
+    src: url('fonts/Poppins-ExtraBold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsExtraBoldItalic';
+    src: url('fonts/Poppins-ExtraBoldItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsItalic';
+    src: url('fonts/Poppins-Italic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsLight';
+    src: url('fonts/Poppins-Light.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsLightItalic';
+    src: url('fonts/Poppins-LightItalic.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsMedium';
+    src: url('fonts/Poppins-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Criador Kaiogremaschi*\
